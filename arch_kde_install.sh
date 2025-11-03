@@ -74,8 +74,8 @@ pacman -S --noconfirm plasma kde-applications xorg sddm
 # Install other essential packages
 pacman -S --noconfirm firefox firefox-ublock-origin
 
-# Install cups and gutenprint!
-pacman -S --noconfirm cups gutenprint
+# Install cups and gutenprint and print-manager!
+pacman -S --noconfirm cups gutenprint ghostscript print-manager
 
 # Enable sddm and cups
 systemctl enable sddm
